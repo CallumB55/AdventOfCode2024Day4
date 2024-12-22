@@ -22,7 +22,8 @@ public class AdventOfCode2024Day4 {
 
 
         System.out.println("Total count: "+String.valueOf(xMasCount[0]+xMasCount[1]));
-        
+        String[] newPair = {"MAS","SAM"};
+        grid.switchSearchStrings(newPair);
         System.out.println("Total count of mas in x shape: "+String.valueOf(grid.masInXShapeCount()));
     }
 }
